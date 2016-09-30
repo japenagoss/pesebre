@@ -1,0 +1,232 @@
+/*
+Estiloas para los tags generales
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/*
+ Estilo para el slide
+*/
+
+#contenedor{
+	min-width:1000px;
+	width:100%;
+	min-height:600px;
+}
+
+#background{
+	overflow:hidden; 
+	position:absolute;
+	min-width:1000px;
+}
+
+.imagen{
+	position:absolute;
+	display:none;
+}
+
+
+.botones_next_prev{
+	position:absolute;
+	z-index:5;
+	width:1000px;
+}
+
+.btn_slide{
+	width:60px;
+	cursor:pointer;
+}
+
+#btb_slide_next{
+	position:relative;
+	left:881px;
+}
+
+#btb_slide_prev{
+	position:relative;
+	left:-6px;
+}
+
+/*
+Estilo para el Head
+*/
+
+.sub-head{
+	background-color:#31160b;
+	widows:100%;
+	position:relative;
+	min-width:1000px;
+	min-height:26px;
+	z-index:4;
+	display:none;
+}
+
+.img_head{
+	width:15%;
+	z-index:5;
+	position:absolute;
+	display:none;
+	min-width:178px;
+}
+
+.sombra{
+	position:absolute;
+	width:1000px;
+}
+
+.sombra_header_2{
+	top:26px;
+}
+
+.sub-head a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.img_header_back{
+	display:none;
+	min-width:1000px;
+}
+
+.header{
+	position:absolute;
+	min-width:1000px;
+	width:100%;
+	overflow:hidden;
+}
+
+#menu div{
+	float:left;
+}
+
+#menu a{
+	margin:5px;
+}
+	
+#menu{
+	position:absolute;
+}	
+
+.separador_menus{
+	display:block;
+}
+
+
+/*
+Estilos para el footer
+*/
+
+#footer{
+	width:100%;
+	background-color:#999;
+	position:absolute;
+	overflow:hidden;
+	min-width:1000px;
+}
+
+.elements_footer{
+	position:absolute;
+}
+
+.line_separator{
+	top:-8px;
+}
+
+.line_separator_1{
+	left:170px;
+}
+
+.line_separator_2{
+	left:412px;
+}
+
+.line_separator_3{
+	left:820px;
+}
+
+.megeglobal{
+	left:200px;
+	top:8px;
+}
+
+.mail_corporativo{
+	left:834px;
+	top:7px;
+}
+
+.text_footer{
+	color: #FFF;
+	font-size: 11px;
+	width: 373px;
+	position: absolute;
+	left: 442px;
+	top: 12px;
+}
+
+.img_footer_back{
+	position:absolute;
+	display:none;
+}
+
+.content_footer{
+	position:absolute;
+	width:1000px;
+	display:none;
+	height:70px;
+}
+
+.link_facebook,.link_twitter,.link_youtube{
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:5;
+	top:20px;
+}
+
+.link_facebook{
+	left:35px;
+}
+
+.link_twitter{
+	left:79px;
+}
+
+.link_youtube{
+	left:123px;
+}
+
+.link_megaglobal{
+	position: absolute;
+	width: 203px;
+	height: 52px;
+	z-index: 5;
+	top: 10px;
+	left: 199px;
+}
+
+.link_email{
+	position: absolute;
+	width: 153px;
+	height: 56px;
+	z-index: 5;
+	top: 10px;
+	left: 842px;
+}
+
+.plant_footer{
+	left:-99px;
+	top:8px;
+}
